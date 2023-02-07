@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container-fluid{
+    max-width: 1500px;
+    margin: auto;
+}
+
+.container{
+    max-width: 1160px;
+    margin: auto;
+}
+
+
+
+#nav{
+    background-color: black;
+    padding: 18px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-list-item{
+    margin: 0 17px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #1fd660;
+}
+
+
+#hero{
+    background-color: #1d75de;
+    color: white;
+}
+
+#hero a{
+    color: white;
+}
+
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-content .main-title{
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.hero-content .second-title{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.hero-content .hero-btn{
+    margin-top: 50px;
+}
+
+.hero-content .hero-btn .btn{
+    padding: 15px;
+}
+
+
+.btn-black {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    background: #000000;
+    padding: 14px 32px 14px 32px;
+    text-decoration: none;
+  }
+
+  .btn-white {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    background: #1d75de;
+    padding: 14px 32px;
+    border: solid #ffffff 2px;
+    text-decoration: none;
+  }
+
+  .link-message{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 11px;
+    font-weight: 400;
+    display: flex;
+    
+  }
+
+  .under-line-link{
+    text-decoration-line: underline;
+    padding-right: 3px;
+  }
+
+  .content-slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slogan-item{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  #slogan{
+    padding-top: 75px;
+    padding-bottom: 110px;
+  }
+
+  .slogan-title{
+    font-size: 38px;
+    font-weight: 900;
+  }
+
+  .item{
+    padding: 0 40px;
+  }
+
+  .item h4{
+    padding-bottom: 11px;
+    font-size: 19px;
+    font-weight: 800;
+  }
+
+  .item p{
+    font-size: 15px;
+  }
+
+  .choose-main{
+    font-size: 38px;
+    font-weight: 700;
+    padding-bottom: 4px;
+  }
+
+  .choose-slogan{
+    padding: 70px 0px;
+  }
+
+  .choose-second{
+    font-size: 15px;
+  }
+
+  #choose{
+    padding-bottom: 120px;
+  }
+
+  .choose-slogan{
+    text-align: center;
+  }
+  
+  #choose{
+    background-color: #efefef;
+  }
+
+
+  .card-line{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #cccccc;
+  }
+
+
+  .card-1 .card-line{
+    margin-top: 13px;
+  }
+  .choose-cards{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card-last-title{
+    font-size: 11px;
+  }
+
+  .card{
+    width: 275px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 20px;
+    border-radius: 3%;
+    filter: drop-shadow(2px 1px 3px #999);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-list-item{
+    font-size: 18px;
+  }
+
+  .card-first-title{
+    background-color: #0d72ea;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+
+  .card-second-title{
+    background-color: #fff;
+    color: #0d72ea;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 4px;
+    border: solid 1px #0d72ea;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+  }
+
+  .card-main-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  .card-detail{
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .card-account{
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .card-list{
+    padding-bottom: 45px;
+  }
+
+  .card-list-item{
+    padding: 6px 0px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+
+  .card-other-payment{
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-other-payment:hover{
+    color: #1fd550;
+  }
+
+
+  .card-last-title{
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .card-1 .btn{
+    margin-top: 50px;
+  }
+
+  .card-2 .btn{
+    margin-top: 30px;
+  }
+
+  .card-4 .btn{
+    margin-top: 8px;
+  }
+
+  .card-3 .card-last-title{
+    margin-top: 83px;
+  }
+
+  .card-4 .card-last-title{
+    margin-top: 80px;
+  }
